@@ -1,1 +1,1 @@
-# Nina-Stanger
+# Nina-Stanger // Artist + Designer
