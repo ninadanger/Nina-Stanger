@@ -1,106 +1,33 @@
-body{
-  font-family: Arial, Helvetica, sans-serif;
-  font-size:15px;
-  line-height:1.5;
-  padding:0;
-  left: 10%;
-  right: 10%;
-  position: absolute;
-  background-color:#ffffff;
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Nina Stanger</title>
+<style type="text/css">
+body,td,th {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
 }
-
-/* Global */
-.container{
-  width:95%;
-  margin:auto;
-  overflow:hidden;
+h1 {
+	font-size: 10px;
+	color: #999;
 }
-
-ul{
-  margin: 0;
-  padding: 0;
+h2 {
+	font-size: 14px;
 }
-
-.dark{
-  padding:5px;
-  color: #ffffff;
-  margin-top:10px;
-  margin-bottom: 10px;
+a:link {
+	color: #666;
+	text-decoration: none;
 }
-
-/* Header **/
-header{
-  background:#ffffff;
-  color:#000000;
-  padding-top:30px;
-  min-height:70px;
-  border-bottom:#ff7e46 3px solid;
-
+a:visited {
+	text-decoration: none;
 }
-
-header a{
-  color:#000000;
-  text-decoration: none;
-  text-transform: uppercase;
-  font-size: 16px;
-
+a:hover {
+	text-decoration: none;
+	color: #F30;
 }
-
-header li{
-  float:left;
-  display: inline;
-  padding: 0 10px 0 20px;
+a:active {
+	text-decoration: none;
 }
+</style>
+</head>
 
-header #branding{
-  float: left;
-}
-
-header #branding h1{
-  margin: 0;
-}
-
-header nav{
-  float: right;
-  margin-top: 10px;
-}
-
-header a:hover{
-  color:#ff7e46;
-  font-weight:bold;
-}
-
-/* Showcase */
-#showcase{
-  min-height: 400px;
-  margin: 5px 0px 5px 0px;
-  background:url('../img/showcase.jpg') no-repeat 0 0;
-  background-color: #ff7e46;
-  background-position:center;
-  text-align:center;
-  color:#ffffff;
-}
-
-/* Boxes */
-#boxes{
-  float:center;
-  text-align: center;
-  left:80%
-  right:80%;
-  padding: 5px;
-  padding-top: 340px;
-}
-
-
-
-/* Main-col*/
-article#main-col{
-  float:left;
-  width:95%;
-  margin-top: 25px
-}
-
-article:hover{
-  color:#ff7e46;
-
-}
